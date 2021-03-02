@@ -6,21 +6,26 @@
 
 Build your circuit according to this diagram:
 
-![pulldown analog circuit](https://github.com/WHS-Robotics-Classes/3.55-Analog_Input/blob/main/Analog_Circuit.PNG?raw=true)
+![](https://github.com/WHS-Robotics-Classes/4-1_Utilizing_the_L298N_Motor_Controller/blob/main/Arduino%20Lab%203.1%20-%20Utilizing%20the%20L298N%20Motor%20Controller%20(1).png?raw=true)
 
 ### Step Two: Write the Code
 
-Before you start, review the Arduino Reference page on [`if()`](https://www.arduino.cc/reference/en/language/structure/control-structure/if/).  Also review what you did last week with `analogRead()` as you will need to use those concepts again.
+Review concepts of digital and analog (PWM) control systems from previous labs.  Be sure that you are able to control LEDs with the `digitalWrite()` and `analogWrite()` commands.  Once you are confident with that, move on.
 
-1. Recycle your code from Lab 3.55 - Analog Input.  You will keep the structure that reads the alalog pin and add a conditional to it in the [Codebender IDE](https://edu.codebender.cc/class/1ajtp).
-2. Modify the code so your sketch does the following:
-    - Turn on the LED_BUILTIN light when the value of 512 or greater is received over pin A0 using `AnalogRead()`.
-    - Turn it off otherwise.
+Concept Overview:  If we can make a light turn on and off we can control the direction of the motor.  For example, to control the direction of motor A in the figure above we would turn on pin ENA and turn off pin ENB using `digitalWrite()`.  To reverse the motor you reverse the commands.  To control the speed of that motor we would use the `analogWrite()` command with pin ENB.  Once we have this concept down, we can control the motors’ speed and direction.
 
-Use the video below as a reference.
+**Write three different sketches.  Each should do the following:**
+1. Start motor B at full speed for five seconds and then stop.
+2. Make motor A ramp up speed from fully stopped to full speed over the course of five seconds and then ramp back down to fully stopped over the course of five seconds.
+3. Make both motors do the following: 
+    - Run at half speed for three seconds.
+    - Stop motor A completely and run motor B on full for two seconds.
+    - Run motor A in reverse and motor B forward, both on full speed, for two seconds.
+    - Stop both motors.
 
 ### Step Three: Debug and Submit
 
-[![3.6_Video](http://img.youtube.com/vi/y0xzbV8Tw1U/0.jpg)](https://www.youtube.com/watch?v=y0xzbV8Tw1U "3.6-Conditionals I")
-
-Make sure your prototype behaves the same way as the one in the video. As in the previous assignment, make a new file here on GitHub. Name it 3.6_Conditionals_I.ino and Commit it to the repository.
+Make sure your prototype behaves the same way as the demo in class. **Make three new files and commit them to this repository on GitHub**. Name them as follows:
+    - 4.1-L298N-1
+    - 4.1-L298N-2
+    - 4.1-L298n-3
