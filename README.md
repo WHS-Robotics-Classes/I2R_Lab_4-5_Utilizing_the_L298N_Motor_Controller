@@ -1,5 +1,5 @@
 # Arduino 4.1 - Utilizing the L298N Motor Controller
-## The L298N motor controller is a great way to use DC motors in conjunction with a programmable board like the Arduino UNO.  It allows us to utilize very basic coding techniques without any additional libraries.  It supports power supplies from 5V to 25V.  This example utilizes a 9V battery but a battery pack with 5 AA batteries is sufficient as well.
+## The L298N motor controller is a great way to use DC motors in conjunction with a programmable board like the Arduino UNO.  It allows us to utilize very basic coding techniques without any additional libraries.  It supports power supplies from 5V to 25V. 
 ---
 
 ### Step One: Build the Circuit
