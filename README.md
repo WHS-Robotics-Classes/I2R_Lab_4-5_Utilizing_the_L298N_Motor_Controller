@@ -4,9 +4,9 @@
 
 ### Step One: Build the Circuit
 
-Build your circuit according to this diagram:
+Build your circuit according to this schematic:
 
-![](https://github.com/WHS-Robotics-Classes/4-1_Utilizing_the_L298N_Motor_Controller/blob/main/Arduino%20Lab%203.1%20-%20Utilizing%20the%20L298N%20Motor%20Controller%20(1).png?raw=true)
+![](https://github.com/WHS-Robotics-Classes/4-1_Utilizing_the_L298N_Motor_Controller/blob/main/4.1-L298N_Wiring.PNG?raw=true)
 
 ### Step Two: Write the Code
 
