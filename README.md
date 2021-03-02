@@ -1,12 +1,10 @@
-# Arduino 3.6 - Conditionals I
-## In this assignment you will take what you learned with analog sensors and combine it with `if()` and `else` to begin making decisions. 
-
-### Conditionals allow our robotic systems to start making decisions.  This programming concept will accept an input, make a decision and actuate output.  Hence, this will be the first robot you have ever made in this class!
+# Arduino 4.1 - Utilizing the L298N Motor Controller
+## The L298N motor controller is a great way to use DC motors in conjunction with a programmable board like the Arduino UNO.  It allows us to utilize very basic coding techniques without any additional libraries.  It supports power supplies from 5V to 25V.  This example utilizes a 9V battery but a battery pack with 5 AA batteries is sufficient as well.
 ---
 
 ### Step One: Build the Circuit
 
-Build your circuit according to this schematic (same as lab 3.55):
+Build your circuit according to this diagram:
 
 ![pulldown analog circuit](https://github.com/WHS-Robotics-Classes/3.55-Analog_Input/blob/main/Analog_Circuit.PNG?raw=true)
 
