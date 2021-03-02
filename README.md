@@ -27,6 +27,6 @@ Concept Overview:  If we can make a light turn on and off we can control the dir
 
 Make sure your prototype behaves the same way as the demo in class. *Make three new files and commit them to this repository on GitHub*. Name them as follows:
 
-    - 4.1-L298N-1
-    - 4.1-L298N-2
-    - 4.1-L298n-3
+    - 4.1-L298N-1.ino
+    - 4.1-L298N-2.ino
+    - 4.1-L298n-3.ino
