@@ -12,7 +12,7 @@ Build your circuit according to this schematic:
 
 Review concepts of digital and analog (PWM) control systems from previous labs.  Be sure that you are able to control LEDs with the `digitalWrite()` and `analogWrite()` commands.  Once you are confident with that, move on.
 
-Concept Overview:  If we can make a light turn on and off we can control the direction of the motor.  For example, to control the direction of motor A in the figure above we would turn on pin ENA and turn off pin ENB using `digitalWrite()`.  To reverse the motor you reverse the commands.  To control the speed of that motor we would use the `analogWrite()` command with pin ENB.  Once we have this concept down, we can control the motors’ speed and direction.
+Concept Overview:  If we can make a light turn on and off we can control the direction of the motor.  For example, to control the direction of motor A in the figure above we would turn on pin IN1 and turn off pin IN2 using `digitalWrite()`.  To reverse the motor you reverse the commands.  To control the speed of that motor we would use the `analogWrite()` command with pin ENA.  Once we have this concept down, we can control the motors’ speed and direction.
 
 **Write three different sketches.  Each should do the following:**
 1. Start motor B at full speed for five seconds and then stop.
