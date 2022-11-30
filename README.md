@@ -6,7 +6,7 @@
 
 Build your circuit according to this schematic (**Note: This shows how to wire up two motors while you will only be using one**):
 
-![](https://github.com/WHS-Robotics-Classes/4-1_Utilizing_the_L298N_Motor_Controller/blob/main/4.1-L298N_Wiring.PNG?raw=true)
+![l298N_Circuit](https://user-images.githubusercontent.com/22602103/204866097-ecc2ffa7-3f25-45dd-ad13-d61b404e271f.PNG)
 
 ### Step Two: Write the Code
 
@@ -30,3 +30,4 @@ Make sure your prototype behaves the same way as the demo in class. *Make three 
     - 4.1-L298N-1.ino
     - 4.1-L298N-2.ino
     - 4.1-L298n-3.ino
+
