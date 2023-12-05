@@ -6,7 +6,7 @@
 
 Build your circuit according to this schematic (**Note: This shows how to wire up two motors while you will only be using one**):
 
-![l298N_Circuit](https://user-images.githubusercontent.com/22602103/204866097-ecc2ffa7-3f25-45dd-ad13-d61b404e271f.PNG)
+![Screenshot 2023-12-05 093225](https://github.com/WHS-Robotics-Classes/I2R_Lab_4-5_Utilizing_the_L298N_Motor_Controller/assets/22602103/c5d5fe69-a958-4e5d-8722-0d60af098b0e)
 
 ### Step Two: Write the Code
 
